@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <AssemblyTitle>FitnessApp.MongoDd.Bson</AssemblyTitle>
-    <Product>FitnessApp.MongoDd.Bson</Product>
-    <PackageId>FitnessApp.MongoDd.Bson</PackageId>
+    <AssemblyTitle>FitnessApp.MongoDb.Bson</AssemblyTitle>
+    <Product>FitnessApp.MongoDb.Bson</Product>
+    <PackageId>FitnessApp.MongoDb.Bson</PackageId>
     <Description>MongoDb BSON library.</Description>
     <PackageDescription>FitnessApp MongoDb's Bson Library.</PackageDescription>
     <PackageTags>$(PackageTags);bson</PackageTags>
