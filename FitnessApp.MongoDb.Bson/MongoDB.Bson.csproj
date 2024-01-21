@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyTitle>FitnessApp.MongoDd.Bson</AssemblyTitle>
+    <Product>FitnessApp.MongoDd.Bson</Product>
+    <PackageId>FitnessApp.MongoDd.Bson</PackageId>
+    <Description>MongoDb BSON library.</Description>
+    <PackageDescription>FitnessApp MongoDb's Bson Library.</PackageDescription>
+    <PackageTags>$(PackageTags);bson</PackageTags>
+    <IsPackable>true</IsPackable>
+    <RepositoryUrl>https://github.com/voldovgan2/FitnessApp.MongoDb</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Include="..\..\FitnessApp.MongoDB.Shared\Hasher.cs" Link="Hasher.cs" />
+  </ItemGroup>
+
+</Project>
