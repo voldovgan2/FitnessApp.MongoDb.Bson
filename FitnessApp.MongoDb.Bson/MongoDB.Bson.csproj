@@ -9,7 +9,7 @@
     <PackageDescription>FitnessApp MongoDb's Bson Library.</PackageDescription>
     <PackageTags>$(PackageTags);bson</PackageTags>
     <IsPackable>true</IsPackable>
-    <RepositoryUrl>https://github.com/voldovgan2/FitnessApp.MongoDb</RepositoryUrl>
+    <RepositoryUrl>https://github.com/voldovgan2/FitnessApp.MongoDb.Bson</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
